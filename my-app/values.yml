@@ -1,0 +1,12 @@
+image:
+  repository: vijaydocker1812/dockerimagepr
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8081
+
+ingress:
+  enabled: true
+replicaCount: 1
